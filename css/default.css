@@ -8,3 +8,59 @@ and open the template in the editor.
     Author     : Alex Sandro
 */
 
+/* Gerais */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: normal;
+    line-height: 150%;
+}
+body, h1,h2{
+    margin:0;
+    padding:0;
+}
+/* Header */
+.content-top{
+    width:100%;
+}
+.logo, .navbar, .titulo-pagina, .content{
+    float: left;
+}
+.logo{
+    height: 45px;
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+    width: 20%;
+}
+
+/* Navegação */
+.navbar{
+    height: 60px;
+    width: 79.5%;
+    vertical-align: middle;
+}
+.navbar ul li{
+    display:inline;
+    padding-left: 1%;
+}
+.navbar ul li a{
+    color:#000;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+}
+
+/* Conteúdo */
+.container{
+    width: 100%;
+}
+.titulo-pagina{
+    text-align: center;
+    width: 20%;
+}
+.content{
+    width: 79.5%;
+}
+/* Rodapé */

@@ -1,66 +1,54 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 22/11/2015, 09:46:54
     Author     : Alex Sandro
 */
-
-/* Gerais */
+/*Reset básico*/
+*{
+  margin:0;
+  padding:0;
+}
+html{
+      font-family: 'Open Sans', sans-serif;
+}
 body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.9em;
-    font-weight: normal;
-    line-height: 150%;
+  background:url(../images/slide.jpg) no-repeat;
 }
-body, h1,h2{
-    margin:0;
-    padding:0;
+ul{
+  list-style:none;
 }
-/* Header */
-.content-top{
-    width:100%;
+h1{
+  color:#FFF;
+  font-size:2em;
 }
-.logo, .navbar, .titulo-pagina, .content{
-    float: left;
+img{
+  max-width:100%;
 }
-.logo{
-    height: 45px;
-    margin: 0;
-    padding-top: 15px;
-    text-align: center;
-    width: 20%;
-}
-
-/* Navegação */
-.navbar{
-    height: 60px;
-    width: 79.5%;
-    vertical-align: middle;
-}
-.navbar ul li{
-    display:inline;
-    padding-left: 1%;
-}
-.navbar ul li a{
-    color:#000;
-    text-decoration: none;
-}
-.navbar ul li a:hover{
-    text-decoration: underline;
-}
-
-/* Conteúdo */
+/*Layout - Responsive*/
 .container{
-    width: 100%;
+  margin:0 auto;
+  width:100%;
 }
-.titulo-pagina{
-    text-align: center;
-    width: 20%;
+.logo, .content{
+  margin:0 auto;
+  width:90%;
 }
-.content{
-    width: 79.5%;
+
+/*Barra de navegação do cabeçalho*/
+.navbar-header{
+  background-color:#19424f;
+  padding:1%;
+  text-align:right;
 }
-/* Rodapé */
+.navbar-header li{
+  display:inline;
+  padding-right:1%;
+}
+.navbar-header li a{
+  color:#FFF;
+  text-decoration:none;
+}
+
+.main-footer{
+  font-size:.75em;
+  text-align:center;
+}

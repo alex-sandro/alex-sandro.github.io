@@ -11,7 +11,12 @@
     <title>Tecnolaudos</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">   
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  
     <style>
         .logo {
             font-size: 200px;
@@ -260,8 +265,33 @@ footer .glyphicon {
 
 
 
-<!-- Set height and width with CSS -->
 <div id="googleMap" style="height:400px;width:100%;"></div>
+
+<!-- Add Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(-24.062722, -46.561464);
+
+function initialize() {
+var mapProp = {
+  center:myCenter,
+  zoom:12,
+  scrollwheel:false,
+  draggable:false,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 
 <footer class="container-fluid text-center">
   <a href="#tecnolaudos" title="Topo">
@@ -271,39 +301,6 @@ footer .glyphicon {
   <p>&copy; Todos os direitos reservados a Tecnolaudos.</p>
 <small>Desenvolvido por Alex Oliveira</small>
 </footer>
-
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Add Google Maps -->
-<script src="http://maps.googleapis.com/maps/api/js"></script>
-
-<script>
-var myCenter = new google.maps.LatLng(-24.062722, -46.561464);
-
-function initialize() {
-var mapProp = {
-center:myCenter,
-zoom:12,
-scrollwheel:false,
-draggable:false,
-mapTypeId:google.maps.MapTypeId.ROADMAP
-};
-
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-var marker = new google.maps.Marker({
-position:myCenter,
-});
-
-marker.setMap(map);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
 
 <script>
 $(document).ready(function(){

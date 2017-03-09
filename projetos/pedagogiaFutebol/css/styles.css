@@ -1,0 +1,50 @@
+/*Variable*/
+/*Styles*/
+@font-face {
+  font-family: 'Raleway';
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  line-height: 150%;
+  margin: 0;
+}
+.topbar {
+  background-color: #54757e;
+  color: #f1f1f1;
+  height: 50px;
+  padding: 5px;
+  width: 100%;
+}
+.topbar span {
+  margin-left: 10px;
+}
+.topbar .fa {
+  color: #4ecdc4;
+}
+.topbar .fa-inverse {
+  color: #f1f1f1;
+}
+figure {
+  float: left;
+  width: 45%;
+}
+nav {
+  float: right;
+  padding-top: 20px;
+  width: 45%;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+  padding: 10px 15px;
+}
+nav ul li a {
+  color: #54757e;
+  text-decoration: none;
+}

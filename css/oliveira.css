@@ -36,7 +36,9 @@ main {
 }
 footer {
   background-color: #C1CDCD /*#E0EEEE*/;
-  position: fixed;
   bottom: 0;
+  margin-top: 10%;
   padding: 10px;
+  position: fixed;
+  width: 100%;
 }

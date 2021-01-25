@@ -4,17 +4,15 @@ title:  "Seja bem-vindo ao meu blog"
 date:   2020-04-17 23:24:17 -0300
 categories: jekyll update
 ---
-Há dois dias decidi aprender uma nova tecnologia. Juntei essa decisão com a vontade de escrever um Blog de forma simples.
-Assim acabei encontrando o Jekyll. Entusiasmado com o aprendizado quero compartilhar essa experiência por aqui e espero 
-que este singelo espaço seja util aos leitores.
 
-Considero o meu primeiro desafio a elaboração de um tema personalizado. Após executar a sequencia descrita na documentação (<https://jekyllrb.com/docs>) estou modificando o próprio modelo instalado (o minima), pois é uma boa forma de particar e ganhar confiança para empreender na jornada ao desenvolvimento de um tema por completo.
+Olá! Neste diário eletrônico será publicado conteúdos sobre tecnologia e educação.
+Em tecnologia quero dialogar e recordar momentos que considero interessantes na minha vida, além de compartilhar o que aprendi e também pedir conselhos para aqueles se identificarem com as histórias encontradas por aqui.
 
-Não há muito segredo, pois a documentação oficial é clara e estou apenas seguindo o guia. Penso em traduzir algum conteúdo 
-e praticar meu inglês também, mas por enquanto, voltarei as minhas raízes com a programação, onde tudo começou em um curso de 
-Webdesign no Senac onde aprendi HTML, CSS, Javascript e PHP apenas para envio de formulário... na época utilizavamos Dreamweaver,
-Fireworks e Flash.
+Vou iniciar comentando sobre a minha decisão de aprender uma nova tecnologia. Juntei essa decisão com a vontade de escrever um Blog de forma simples.
+Assim acabei encontrando o Jekyll.
 
-O legal disso tudo é que todas as alterações realizadas aqui pode ser conferida no meu repositório do Github <https://github.com/alex-sandro>.
+Considero o meu primeiro desafio a elaboração de um tema personalizado. Após executar a sequencia descrita na documentação vou criar e disponibilizar meu tema.
+
+Certamente a próxima linguagem que irei estudar será o Ruby. Penso em traduzir algum conteúdo e criar um sistema web com o rails, mas por enquanto, vou seguindo com o HTML, CSS, Javascript e o Markdown no Jekyll.
 
 Até mais.

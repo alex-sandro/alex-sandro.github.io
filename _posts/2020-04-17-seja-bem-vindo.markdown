@@ -15,4 +15,6 @@ Considero o meu primeiro desafio a elaboração de um tema personalizado. Após 
 
 Certamente a próxima linguagem que irei estudar será o Ruby. Penso em traduzir algum conteúdo e criar um sistema web com o rails, mas por enquanto, vou seguindo com o HTML, CSS, Javascript e o Markdown no Jekyll.
 
+Enquanto a educação... deixa para o próximo post.
+
 Até mais.

@@ -3,6 +3,13 @@
     margin:0;
 }
 .container{
-    border:1px solid red;
-    margin: 0 20%;
+    border:1px solid darkblue;
+    margin: 10px 20%;
+}
+.master-header{
+    background-color: cornflowerblue;
+    color: white;
+    height: 200px;
+    text-align: center;
+    width: 100%;
 }

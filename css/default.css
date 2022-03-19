@@ -1,5 +1,4 @@
 *{box-sizing: border-box;}
-
 body{
     margin-top: 20px;
     line-height: 150%;
@@ -23,7 +22,6 @@ img{
 .perfil{
     flex-direction: column;
     background-color: white;
-    border: 1px solid grey;
     text-align: center;
     width: 250px;
     height: 800px;
@@ -37,7 +35,6 @@ img{
 
 .experiencia{
     background-color: white;
-    border: 1px solid grey;
     width: 500px;
     height: 395px;
     padding:20px;
@@ -45,11 +42,14 @@ img{
 
 .formacao{
     background-color: white;
-    border: 1px solid grey;
     width: 500px;
     height: 395px;
     margin-top: 10px;
     padding:20px;
+}
+
+.perfil, .experiencia, .formacao{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .footer{

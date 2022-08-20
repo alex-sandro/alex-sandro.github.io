@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
+
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/default.css">
-    <title>Alex Oliveira - Desenvolvedor Web FullStack </title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Alex Oliveira - Programador - Professor e Músico</title>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#portifolio">Portifolio</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-        <h1 class="ws-title">Alex Oliveira</h1>
-        <h2 class="ws-subtitle">Desenvolvedor FullStack</h2>
-    </header>
+    <div class="cartao-de-visita">
+        <img src="https://github.com/alex-sandro.png" alt="alex-oliveira" title="Alex Oliveira - Programador">
+        <h1>Alex Oliveira</h1>
+        <p class="titulo">Programador</p>
+        <p>Java - PHP - Python</p>
+    <div style="margin: 24px 0;">   
+        <a href="https://www.linkedin.com/in/alexssoliveira/"><i class="fa fa-linkedin"></i></a>  
+        <a href="https://github.com/alex-sandro"><i class="fa fa-github"></i></a> 
+    </div>
+    <div class="popup">
+        <span class="popuptext" id="myPopup">alex.afortiori@gmail.com</span>
+    </div>
+        <p><button onclick="showEmail()">Contato</button></p>
+    </div>
+
+    <script>
+        // When the user clicks on <div>, open the popup
+        function showEmail() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+    </script>
 </body>
+
 </html>

@@ -1,36 +1,216 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
-
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Alex Oliveira - Programador</title>
-</head>
-
-<body>
-    <div class="cartao-de-visita">
-        <img src="https://github.com/alex-sandro.png" alt="alex-oliveira" title="Alex Oliveira - Programador">
-        <h1>Alex Oliveira</h1>
-        <p class="titulo">Programador</p>
-        <p>Java - PHP - Python</p>
-    <div style="margin: 24px 0;">   
-        <a href="https://www.linkedin.com/in/alexssoliveira/"><i class="fa fa-linkedin"></i></a>  
-        <a href="https://github.com/alex-sandro"><i class="fa fa-github"></i></a> 
-    </div>
-    <div class="popup">
-        <span class="popuptext" id="myPopup">alex.afortiori@gmail.com</span>
-    </div>
-        <p><button onclick="showEmail()">Contato</button></p>
-    </div>
-
-    <script>
-        // When the user clicks on <div>, open the popup
-        function showEmail() {
-          var popup = document.getElementById("myPopup");
-          popup.classList.toggle("show");
-        }
-    </script>
-</body>
-
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Alex Oliveira - Portifolio</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .bg-primary{
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Alex Oliveira</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/AlexOliveira.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Formação</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interesse</a></li>
+                    <!--li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li-->
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Alex
+                        <span class="text-primary">Oliveira</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Praia Grande - SP, (13) 98852-3966 ·
+                        <a href="mailto:name@email.com">alex.afortiori@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">Tenho experiência com as linguagens PHP e Python utilizando frameworks como Laravel e Django.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/alexssoliveira/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/alex-sandro" target="_blank"><i class="fab fa-github"></i></a>
+                        <!--a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a-->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projetos</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">FullStack Web Developer</h3>
+                            <div class="subheading mb-3">Freelancer</div>
+                            <p><a href="https://podologaivanete.com.br" target="_blank"> Consultório de Podologia </a> Landing Page desenvolvida com as tecnologias HTML5, CSS3, JavaScript e PHP.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Julho 2024 </span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">FullStack Web Developer</h3>
+                            <div class="subheading mb-3">Freelancer</div>
+                            <p><a href="https://itamarsoares.com.br" target="_blank"> Síndico Profissional </a> Landing Page desenvolvida com as tecnologias HTML5, CSS3, JavaScript e PHP.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Agosto 2024 </span></div>
+                    </div>
+                    
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Formação</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Fatec Praia Grande</h3>
+                            <div class="subheading mb-3">Tecnólogo</div>
+                            <div>Análise e Desenvolvimento de Sistemas - Curso imcompleto.</div>
+                            
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Julho 2014</span></div>
+                    </div>
+                    <!--div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">James Buchanan High School</h3>
+                            <div class="subheading mb-3">Technology Magnet Program</div>
+                            <p>GPA: 3.56</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                    </div-->
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Liguagens de Programação & Ferramentas</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-php"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-laravel"></i></li>
+                    </ul>
+                    <!--
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Responsive Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                    -->
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interesses</h2>
+                    <p>Além de ser um desenvolvedor web, tenho muito interesse na área de Ciência de Dados. Gosto de ler sobre finanças, literatura e filosofia.</p>
+                    <!--p class="mb-0"> technology advancements in the front-end web development world.</p-->
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Google Analytics Certified Developer
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Mobile Web Specialist - Google Certification
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - James Buchanan High School - Hackathon 2006
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            3
+                            <sup>rd</sup>
+                            Place - James Buchanan High School - Hackathon 2005
+                        </li>
+                    </ul>
+                </div>
+            </section>-->
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>

@@ -1,53 +1,164 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Portifolio" />
-        <meta name="author" content="Alex Sandro" />
-        <title>Alex Sandro - Portifolio</title>
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Sandro | Desenvolvedor</title>
+    <meta name="description" content="Portfólio de Alex Sandro, Desenvolvedor de Software e Profissional de TI.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Nav -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home">AS.</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <!--li><a href="#projects">Projetos</a></li-->
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content glass-panel">
+            <h1>Olá, eu sou <br> <span class="highlight">Alex Sandro</span></h1>
+            <p class="typing-text">Desenvolvedor de Software & Profissional de TI</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn primary-btn">Fale Comigo</a>
+                <!--a href="#projects" class="btn secondary-btn">Ver Projetos</a-->
+            </div>
+        </div>
+        <div class="hero-decorative-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
         <div class="container">
-            <header class="header-container">
-                <img src="img/Alex_Sandro.jpg" class="perfil" alt="Alex Sandro">
-                <h1>Alex Sandro</h1>
-            </header>
-            <nav class="navbar">
-                <a href="#">Início</a>
-                <!--a href="#">Sobre</a>
-                <a href="#">Contato</a-->
-            </nav>
-            <div class="cards">
-                <div class="card">
-                    <img src="img/conectividade-total.jpg" alt="" style="width: 100%;">
-                    <div class="card-container">
-                        <h4><b>Conectividade Total</b></h4>                        
-                        <p>Um blog desenvolvido em Wordpress</p>
-                        <p><a href="https://conectividadetotal.com.br" target="_blank"><em>Acesse aqui!</em></a></p>
-                    </div>
-                </div>     
-                <div class="card">
-                    <img src="img/podologa-ivanete.jpg" alt="" style="width: 100%;">
-                    <div class="card-container">
-                        <h4><b>Website Podologa Ivanete</b></h4>
-                        <p>Landing Page utilizando o Bootstrap 5</p>
-                        <p><a href="https://alex-sandro.github.io/projetos/podologaivanete" target="_blank"><em>Acesse aqui!</em></a></p>
-                    </div>
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content glass-panel">
+                <div class="about-text">
+                    <p>Sou um profissional apaixonado por tecnologia e resolução de problemas. Com experiência na área de TI, meu objetivo é construir soluções eficientes, escaláveis e com foco na melhor experiência de usuário. Estou sempre em busca de novos desafios e oportunidades para aprender e expandir minhas habilidades no ecossistema de desenvolvimento, infraestrutura, Inteligência Artificial e Ciência de Dados.</p>
                 </div>
-                <div class="card">
-                    <img src="img/montanhas-fibras.jpg" alt="" style="width: 100%;">
-                    <div class="card-container">
-                        <h4><b>Website Montanhas Fibras</b></h4>
-                        <p>Website utilizando o Bootstrap 5</p>
-                        <p><a href="https://alex-sandro.github.io/projetos/MontanhasFibras" target="_blank"><em>Acesse aqui!</em></a></p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>+5</h3>
+                        <p>Anos de Experiência</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Dedicação</p>
                     </div>
                 </div>
             </div>
-        <footer class="footer-container">
-            <h5><a href="https://github.com/alex-sandro" target="_blank">Github</a> | <a href="https://www.linkedin.com/in/alexssoliveira/" target="_blank">Linkedin</a></h5>
-        </footer>      
         </div>
-    </body>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-panel">
+                    <i class="fab fa-react"></i>
+                    <h3>Front-end</h3>
+                    <p>Construindo interfaces incríveis e responsivas com HTML5, CSS3, JavaScript e ReactJS.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fas fa-server"></i>
+                    <h3>Back-end</h3>
+                    <p>Arquiteturas robustas e seguras com PHP e Python.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fas fa-database"></i>
+                    <h3>Banco de Dados</h3>
+                    <p>Modelagem e otimização estrutural utilizando o MySQL.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fas fa-mobile"></i>
+                    <h3>Mobile</h3>
+                    <p>Desenvolvimento Android com Kotlin.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fab fa-wordpress"></i>
+                    <h3>WordPress</h3>
+                    <p>Websites, LandingPages e Blogs com princípios de segurança e práticas de SEO para destacar seu projeto no Google.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fas fa-dna"></i>
+                    <h3>Ciência de Dados</h3>
+                    <p>Análises, estatíticas, projetos e estratégias para tomadas de decisões.</p>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <!--section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projetos em Destaque</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-panel">
+                    <div class="project-info">
+                        <h3>Sistema de Gestão Empresarial</h3>
+                        <p>Plataforma web para gerenciamento integrado de clientes, faturamento. Construída para otimizar operações usando cloud.</p>
+                        <div class="project-tags">
+                            <span>Web App</span>
+                            <span>Fullstack</span>
+                        </div>
+                        <a href="#" class="view-project-btn">Ver Detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card glass-panel">
+                    <div class="project-info">
+                        <h3>Infraestrutura Resiliente</h3>
+                        <p>Projeto de modernização de parque tecnológico, implementando rotinas automatizadas de backup e segurança end-to-end.</p>
+                        <div class="project-tags">
+                            <span>Redes</span>
+                            <span>Segurança</span>
+                        </div>
+                        <a href="#" class="view-project-btn">Ver Detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section-->
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-wrapper glass-panel">
+                <div class="contact-info">
+                    <h3>Vamos Trabalhar Juntos!</h3>
+                    <p>Sinta-se à vontade para me enviar uma mensagem, seja para um projeto, oportunidade de parcerias ou tirar uma dúvida sobre a área de tecnologia.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/alex-sandro" title="https://github.com/alex-sandro" alt="https://github.com/alex-sandro" target="_blank"><i class="fab fa-github"></i> github.com/alex-sandro</a>
+                        <a href="https://linkedin.com/in/alexssoliveira/" title="https://linkedin.com/in/alexssoliveira/" alt="https://linkedin.com/in/alexssoliveira/" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/alexssoliveira/</a>
+                        <a title="alex.afortiori@gmail.com" alt="alex.afortiori@gmail.com" ><i class="fas fa-envelope"></i> alex.afortiori@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Alex Sandro. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>

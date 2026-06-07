@@ -57,7 +57,7 @@
 
       let classeStatus = "";
       if (item.status === "Tenho") classeStatus = "tenho";
-      if (item.status === "Faltando") classeStatus = "faltando";
+      /*if (item.status === "Faltando") classeStatus = "faltando";*/
       if (item.status === "Repetida") classeStatus = "repetida";
 
       tr.innerHTML = `
@@ -76,8 +76,9 @@
   function atualizarResumo() {
     document.getElementById("total").innerText = figurinhas.length;
     document.getElementById("tenho").innerText = figurinhas.filter(f => f.status === "Tenho").length;
-    document.getElementById("faltando").innerText = figurinhas.filter(f => f.status === "Faltando").length;
-    document.getElementById("repetidas").innerText = figurinhas.filter(f => f.status === "Repetida").length;
+    /*document.getElementById("faltando").innerText = figurinhas.filter(f => f.status === "Faltando").length;*/
+    document.getElementById("faltando").innerText = 980 - figurinhas.filter(f => f.status === "Tenho").length;
+    document.getElementById("repetida").innerText = figurinhas.filter(f => f.status === "Repetida").length;
   }
 
   carregarFigurinhas();

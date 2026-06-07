@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Controle de Figurinhas - Copa 2026</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Álbum da Copa do Mundo 2026</h1>
+    <p>Controle suas figurinhas: tenho, faltando e repetidas</p>
+  </header>
+
+  <main>
+
+    <section class="cards">
+      <div class="card">
+        <h2 id="total">0</h2>
+        <p>Total cadastradas</p>
+      </div>
+
+      <div class="card">
+        <h2 id="tenho">0</h2>
+        <p>Figurinhas que tenho</p>
+      </div>
+
+      <div class="card">
+        <h2 id="faltando">0</h2>
+        <p>Figurinhas faltando</p>
+      </div>
+
+      <div class="card">
+        <h2 id="repetidas">0</h2>
+        <p>Figurinhas repetidas</p>
+      </div>
+    </section>
+
+    <!--section class="form">
+      <h2>Cadastrar figurinha</h2>
+
+      <div class="form-grid">
+        <input type="number" id="numero" placeholder="Número da figurinha" />
+        <input type="text" id="selecao" placeholder="Seleção / País" />
+        <input type="text" id="jogador" placeholder="Jogador ou descrição" />
+
+        <select id="status">
+          <option value="Tenho">Tenho</option>
+          <option value="Faltando">Faltando</option>
+          <option value="Repetida">Repetida</option>
+        </select>
+
+        <button onclick="adicionarFigurinha()">Adicionar</button>
+      </div>
+    </section-->
+
+    <section class="form">
+      <h2>Filtrar</h2>
+
+      <div class="form-grid">
+        <input type="text" id="busca" placeholder="Buscar por país, jogador ou número" oninput="listarFigurinhas()" />
+
+        <select id="filtroStatus" onchange="listarFigurinhas()">
+          <option value="">Todos os status</option>
+          <option value="Tenho">Tenho</option>
+          <option value="Faltando">Faltando</option>
+          <option value="Repetida">Repetida</option>
+        </select>
+
+        <button class="danger" onclick="limparTudo()">Limpar tudo</button>
+      </div>
+    </section>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nº</th>
+          <th>Seleção</th>
+          <th>Jogador / Descrição</th>
+          <th>Status</th>
+          <!--th>Ações</th-->
+        </tr>
+      </thead>
+
+      <tbody id="listaFigurinhas"></tbody>
+    </table>
+
+  </main>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
